@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Никита Рогалев](https://up.htmlacademy.ru/htmlcss/37/user/2382999).
-* Наставник: `Неизвестно`.
+* Наставник: [Артем Именин](https://htmlacademy.ru/profile/aimenin).
 
 ---
 
