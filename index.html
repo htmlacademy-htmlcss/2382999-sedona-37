@@ -4,16 +4,17 @@
     <meta charset="utf-8">
     <title>Sedona</title>
     <link href="./styles.css" rel="stylesheet" >
+    <link href="./reset.css" rel="stylesheet" >
   </head>
   <body>
     <header class="page-header">
       <div class="container">
         <nav class="navigation">
           <ul class="navigation-list">
-            <li class="navigation-item">
+            <li class="navigation-item-logo">
               <img src="./images/logo.svg" alt="logo-of-sedona" class="navigation-logo">
             </li>
-            <li class="navigation-item">
+            <li class="navigation-item border-nav">
               <a href="" class="navigation-link" href="#">Главная</a>
             </li>
             <li class="navigation-item">
@@ -23,7 +24,7 @@
               <a href="" class="navigation-link" href="#">Гостиницы</a>
             </li>
           </ul>
-          <ul class="navigation-list navigation-user">
+          <ul class="navigation-user">
             
             <li class="navigation-item">
               <input type="search" class="header-input">
@@ -32,8 +33,8 @@
             <li class="navigation-item">
               
                 <img src="./images/heart.svg" alt="heart-logo" class="heart-logo">
-                <sup class="numbers">12</sup>
-              
+                <span class="numbers">12</span>
+                
             </li>
             <li class="navigation-item">
               <button class="header-btn">ХОЧУ СЮДА!</button>
@@ -43,19 +44,22 @@
       </div>
     </header>
     <main class="main-index">
-      <div class="div-picture">
+      <div class="top-jpg">
+        <div class="top-jpeg-two"></div>
         <div class="container">
           <h1 class="visually-hidden">
             Welcome to Sedona
           </h1>
-          <img src="./images/index-background.jpg" alt="index-bgrnd" class="index-bgrnd">
-          <img src="./images/welcome.svg" alt="welcome" class="welcome-img">
+          <div class="welcome-img-div">
+            <!-- <img src="./images/index-background.jpg" alt="index-bgrnd" class="index-bgrnd"> -->
+            <img src="./images/welcome.svg" alt="welcome" class="welcome-img">
+          </div>
         </div>
       </div>
       <article class="pre-section">
         <div class="container">
-          <h2 class="pre-section-txt">Седона — небольшой городок в Аризоне,
-            заслуживающий большего!</h2>
+          <pre class="pre-section-txt">Седона — небольшой городок в Аризоне,
+  заслуживающий большего!</pre>
           <p class="pre-section-txt-two">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
         </div>
       </article>
@@ -140,22 +144,22 @@
         <ul class="social">
           <li class="social-icon">
             <a href="#">
-              <img src="./images/vk.svg" alt="icon-vk" class="social-icon">
+              <!-- <img src="./images/vk.svg" alt="icon-vk" class="social-icon"> -->
             </a>
           </li>
           <li class="social-icon">
             <a href="#">
-              <img src="./images/tg.svg" alt="icon-telegram" class="social-icon">
+              <!-- <img src="./images/tg.svg" alt="icon-telegram" class="social-icon"> -->
             </a>
           </li>
           <li class="social-icon">
             <a href="#">
-              <img src="./images/youtube.svg" alt="icon-youtube" class="social-icon">
+              <!-- <img src="./images/youtube.svg" alt="icon-youtube" class="social-icon"> -->
             </a>
           </li>
         </ul>
         <a href="tel+78128121212" class="telephone">+7 (812) 812-12-12</a>
-        <img src="./images/logo_htmlacademy.svg" alt="logo-Academy-HTML" class="logo-academy">
+        <!-- <img src="./images/logo_htmlacademy.svg" alt="logo-Academy-HTML" class="logo-academy"> -->
       </div>
     </div>
     </footer>
